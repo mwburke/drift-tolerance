@@ -4,7 +4,7 @@ An interactive notebook to explore a user's personal preference around what cons
 
 The interface for labeling looks as follows:
 
-![](img/drift_interactive.png)
+![](img/drift_interactive.PNG)
 
 After the labels are collected along with associated PSI scores, a basyesian logistic model is fit on the relationship to try and establish the user's intuition on what types of distributions are acceptable or not. When a user has a noisy preference, with overlapping labels in the same PSI ranges, the relationship may be less clear cut.
 
